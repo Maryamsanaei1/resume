@@ -1,13 +1,14 @@
-<style>
 h1,h2,h3,h4,h5,h6 {
 	font-family: "Raleway"; 
 }
 
 
-div > p{
+div  p{
 	font-family: "Montserrat";
-	text-align: left;
+	text-align: center;
 	}
+
+.para{text-align: left;}
 
 body{
  text-align: center;
@@ -23,24 +24,10 @@ img {
     text-align: center;
 }
 
-i{text-align: center;}
-/*
-.image {
-    position: relative;
-    float: left;
-    width:  300px;
-    height: 300px;
-    background-position: 100% 100%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
-    border-radius: 2%;
-    padding:5%;
-
-}*/
 
 .gallery-item {
- margin: 5px 5px 5px 5px;
- padding: 5px 5px 5px 5px;
+ /*margin: 2px 2px 2px 2px;*/
+/* padding: 2px 2px 2px 2px;*/
  height: 250px;
  width: 250px;
  border-radius: 5%;
@@ -48,12 +35,12 @@ i{text-align: center;}
  box-sizing: border-box;
 }
 .border {
- height: 250px;
- width: 250px;
+ height: 200px;
+ width: 220px;
  border: 1px solid transparent;
  position: absolute;
- top: 10%;
- left: 10%;
+ top: 20%;
+ left: 15%;
  box-sizing: border-box;
 }
 .text {
@@ -62,12 +49,12 @@ i{text-align: center;}
  font-weight: bold;
  text-align: center;
  position: absolute;
- top: 50%;
+ top: 40%;
  left: 0;
  width: 100%;
 }
 .gallery-item:hover {
- opacity: 0.6;
+ opacity: 0.7;
 }
 .gallery-item:hover .border {
  border: 1px solid black;
@@ -80,65 +67,13 @@ i{text-align: center;}
  width: 300px;
  border-radius: 5%;
  margin: 0 0 0 0;
- padding: 20%;
+ padding: 15%;
 }
 
-
-
-
-/*
-.container {
-  position: relative;
-  width: 100%;
-  
-}
-
-.
-
-.overlay {
-  position: absolute;
-  bottom: 50%;
-  left: 0;
-  right: 0;
-  background-color: grey;
-  overflow: hidden;
-  width: 100%;
-  height:0;
-  right:0%;
-  left:0%;
-  transition: .5s ease;
-
-}
-
-.container:hover .overlay {
-  bottom: 0;
-  height: 100%;
-  right:5%;
-  
-
-}
-/*
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.responsive {
-    padding: 40px;
-    float: left;
-    width: 24.99999%;
-}
-
-*/
 
 li{
 text-align: left;	
+font-family: "Montserrat";
 }
 
 br{
